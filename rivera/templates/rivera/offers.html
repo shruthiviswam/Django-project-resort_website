@@ -1,0 +1,152 @@
+{% extends 'rivera/layout.html' %}
+{% load static %}
+
+{% block title %}
+
+    Rivera :: OFFERS
+
+{% endblock %}
+
+{% block header %}
+
+    Offers
+
+{% endblock %}
+
+{% block content %}
+
+<section class="choose pt-5">
+    <div class="container">
+        <div class="text-h3 text-center">
+            <h3>SPECIAL OFFERS</h3>
+        </div>
+        <div class="w3-agileits-team-title">
+            <div id="horizontalTab">
+                <div class=" resp-tabs-container">
+                    <ul class=" resp-tabs-list">
+                        <li class="resp-tab-item">
+                            <h5 class="w3_clr">NEW PACKAGES</h5>
+                        </li>
+                        <li class="resp-tab-item">
+                            <h5 class="w3_clr">SUMMER OFFER</h5>
+                        </li>
+                        <li class="resp-tab-item">
+                            <h5 class="w3_clr">MEMBERS OFFER</h5>
+                        </li>
+                        <li class="resp-tab-item">
+                            <h5 class="w3_clr">ONE-DAY TRIP</h5>
+                        </li>
+                    </ul>
+                    <div class="tab1">
+                        <div class="row">
+                            <div class="col-md-6 com-sm-6 w3three_al2">
+                                <div class="test-wel">
+
+                                    <p>Package - 5 days and 4 nights. 2,3,4 bedroom apartments or suits available. Breakfast included.
+                                        <br>Price : *****/- per person. </p>
+                                    <ul>
+                                        <li>
+                                            <i class="fas fa-check"></i>Access to UnderWater Aquarium</li>
+                                        <li>
+                                            <i class="fas fa-check"></i>Access to Water Themepark</li>
+                                        <li>
+                                            <i class="fas fa-check"></i>Dolphin Show</li>
+                                        <li>
+                                            <i class="fas fa-check"></i>International Buffet available</li>
+                                    </ul>
+                                    <a href="{% url 'guestbook' %}"><input type="submit" class="form-button" value="BOOK NOW">  </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 com-sm-6 w3three_al3">
+                                <img src=" {% static 'images/b1.jpg' %} " alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab2">
+                        <div class="row">
+                            <div class="col-md-6 com-sm-6 w3three_al2">
+                                <div class="test-wel">
+
+                                    <p>Summer Offers valid till 1st September 2020. Please provide the id and a copy of your payment upon arrival.<br>
+                                    Prices given below are per person. </p>
+                                    <ul>
+                                        <li>
+                                            <i class="fas fa-check"></i>Water Themepark - ****/-</li>
+                                        <li>
+                                            <i class="fas fa-check"></i>UnderWater Aquarium - ****/-</li>
+                                        <li>
+                                            <i class="fas fa-check"></i>International Buffet - ****/-</li>
+                                        <li>
+                                            <i class="fas fa-check"></i>Dolphin Show - ****/-</li>
+                                    </ul>
+                                    <a href="{% url 'guestbook' %}"><input type="submit" class="form-button" value="BOOK NOW">  </a>  
+                                </div>
+                            </div>
+                            <div class="col-md-6 com-sm-6 w3three_al5">
+                                <img src=" {% static 'images/b2.jpg' %} " alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab3">
+                        <div class="row">
+                            <div class="col-md-6 com-sm-6 w3three_al2">
+                                <div class="test-wel">
+
+                                    <p>Members of Rivera Beach Resort have a 20% discout on all existing prices.<br>
+                                    They also can access to :</p>
+                                    <ul>
+                                        <li>
+                                            <i class="fas fa-check"></i>Private Pool</li>
+                                        <li>
+                                            <i class="fas fa-check"></i>Free Breakfast</li>
+                                        <li>
+                                            <i class="fas fa-check"></i>Private access to the beach</li>
+                                        <li>
+                                            <i class="fas fa-check"></i>Gym Access</li>
+                                    </ul>
+                                    <a href="{% url 'guestbook' %}"><input type="submit" class="form-button" value="BOOK NOW">  </a>  
+                                </div>
+                            </div>
+                            <div class="col-md-6 com-sm-6 w3three_al7">
+                                <img src=" {% static 'images/b3.jpg' %} " alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab4">
+                        <div class="row">
+                            <div class="col-md-6 com-sm-6 w3three_al2">
+                                <div class="test-wel">
+
+                                    <p>
+                                        One Day Trip to Rivera can include numerous activities to keep you occupied throughout the day. <br>
+                                        Price per person - ****/-
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            <i class="fas fa-check"></i>Breakfast Provided</li>
+                                        <li>
+                                            <i class="fas fa-check"></i>Sightseeing in the city</li>
+                                        <li>
+                                            <i class="fas fa-check"></i>Access to the beach</li>
+                                        <li>
+                                            <i class="fas fa-check"></i>Access to Underwater Aquarium OR Dolphin Show</li>
+                                    </ul>
+                                    <a href="{% url 'guestbook' %}"><input type="submit" class="form-button" value="BOOK NOW">  </a>  
+                                </div>
+                            </div>
+                            <div class="col-md-6 com-sm-6 w3three_al9">
+                                <img src=" {% static 'images/b4.jpg' %} " alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+{% endblock %}

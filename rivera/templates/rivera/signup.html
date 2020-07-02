@@ -1,0 +1,51 @@
+{% extends 'rivera/layout.html' %}
+{% load static %}
+
+{% block title %}
+
+    Rivera :: Signup
+
+{% endblock %}
+
+{% block header %}
+
+    Signup
+
+{% endblock %}
+
+{% block content %}
+
+<div class="about pt-0" id="about">
+	<div class="main-about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 about-left">
+                    <div>
+                        <form action="" method="POST" enctype="multipart/form-data">
+                            {% csrf_token %}
+                    
+                            <table>
+                            {% for x in form %}
+                    
+                            <tr>
+                                <th>{{x.label_tag}}</th>
+                                <td>{{x}}</td>
+                                <td>{{field.errors}}</td>
+                            </tr>
+                    
+                            {% endfor %}
+                            </table>
+                            <a href="memberwelcome" ><input type="submit" class="form-button" value="Submit"></a>
+                        </form>
+                    
+                    </div>
+                </div>
+                <div class="col-md-6 about-right">
+                    <img src=" {% static 'images/m1.jpg' %} " alt="image"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

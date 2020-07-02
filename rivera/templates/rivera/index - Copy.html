@@ -1,0 +1,663 @@
+
+<!DOCTYPE html>
+<html lang="zxx">
+{% load static %}
+<head>
+
+    <title>Rivera Beach Resort</title>
+    <!--meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Rivera"/>
+    <script>
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+    <!--//meta tags ends here-->
+    <!-- bootstrap style sheet -->
+    <link href=" {% static 'css/bootstrap.min.css' %} " rel="stylesheet" type="text/css" />
+    <!-- fontawesome -->
+    <link href=" {% static 'css/fontawesome-all.min.css' %} " rel="stylesheet" type="text/css" media="all">
+    <!-- Popup css (for Video Popup) -->
+    <link href=" {% static 'css/popuo-box.css' %} " rel="stylesheet" type="text/css" media="all" />
+
+    <link rel="stylesheet " href=" {% static 'css/chocolat.css ' %} " type="text/css" media="all" />
+
+    <link href=" {% static 'css/easy-responsive-tabs.css' %} " rel='stylesheet' type='text/css' />
+    <!--stylesheets-->
+    <link href=" {% static 'css/style.css' %} " rel='stylesheet' type='text/css' media="all">
+
+	<link href="//fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+	
+	
+</head>
+
+<body>
+   
+    <!-- nav -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <h1><a class="navbar-brand" href=" {% static 'index.html' %} ">RIVERA BEACH RESORT</a></h1>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link active scroll" href=" {% static 'index.html' %} ">HOME <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll hvr-overline-from-center scroll" href=" {% static '#about' %} "> ABOUT</a>
+                    </li>
+					<li class="nav-item">
+                        <a class="nav-link scroll hvr-overline-from-center scroll" href=" {% static '#offers' %} ">OFFERS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll hvr-overline-from-center scroll" href=" {% static '#rooms' %} ">ROOMS</a>
+                    </li>
+					<li class="nav-item">
+                        <a class="nav-link scroll hvr-overline-from-center scroll" href=" {% static '#features' %} ">FEATURES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll hvr-overline-from-center scroll" href=" {% static '#gallery' %} ">GALLERY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll hvr-overline-from-center scroll" href=" {% static '#events' %} ">EVENTS</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- /nav -->
+    <!-- banner -->
+
+    <div class="banner">
+	<div class="banner-png">
+        <div class="banner-text">
+
+            <h2>Live Your Life to the Fullest</h2>
+            <p>Everything comes togather to form an unforgettable picture.</p>
+        </div>
+       <button type="submit">BOOK NOW</button>
+    </div>
+	</div>
+    <!-- //banner -->
+	
+    <!-- about -->
+    <div class="about pt-5" id="about">
+	<div class="main-about">
+        <div class="container">
+            <div class="text-h3 text-center">
+                <h3>ABOUT </h3>
+            </div>
+            <div class="row">
+                <div class="col-md-6 about-left">
+                    <h3>WELCOME</h3>
+                    <p>An aesthetically perfect beach resort & spa hotel,which stands majestically with breathtaking natural beauty of the stunning ocean view, to create a true relaxation experiance.</p>
+                </div>
+                <div class="col-md-6 about-right">
+                    <img src=" {% static 'images/ab.jpg' %} " alt="image" />
+                </div>
+            </div>
+        </div>
+	</div>
+	
+        <!-- about-bottom -->
+
+        <section class="choose pt-5">
+            <div class="container">
+                <div class="text-h3 text-center">
+                    <h3>SPECIAL OFFERS</h3>
+                </div>
+                <div class="w3-agileits-team-title">
+                    <div id="horizontalTab">
+                        <div class=" resp-tabs-container">
+                            <ul class=" resp-tabs-list">
+                                <li class="resp-tab-item">
+                                    <h5 class="w3_clr">PACKAGES</h5>
+                                </li>
+                                <li class="resp-tab-item">
+                                    <h5 class="w3_clr">SUMMER OFFER</h5>
+                                </li>
+                                <li class="resp-tab-item">
+                                    <h5 class="w3_clr">MEMBERS OFFER</h5>
+                                </li>
+                                <li class="resp-tab-item">
+                                    <h5 class="w3_clr">ONE-DAY TRIP</h5>
+                                </li>
+                            </ul>
+                            <div class="tab1">
+                                <div class="row">
+                                    <div class="col-md-6 com-sm-6 w3three_al2">
+                                        <div class="test-wel">
+
+                                            <p>Package - 5 days and 4 nights. 2,3,4 bedroom apartments or suits available. Breakfast included.
+                                                <br>Price : *****/- per person. </p>
+                                            <ul>
+                                                <li>
+                                                    <i class="fas fa-check"></i>Access to UnderWater Aquarium</li>
+                                                <li>
+                                                    <i class="fas fa-check"></i>Access to Water Themepark</li>
+                                                <li>
+                                                    <i class="fas fa-check"></i>Dolphin Show</li>
+                                                <li>
+                                                    <i class="fas fa-check"></i>International Buffet available</li>
+                                            </ul>
+                                            <button type="submit">BOOK NOW</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 com-sm-6 w3three_al3">
+                                        <img src=" {% static 'images/b1.jpg' %} " alt="" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab2">
+                                <div class="row">
+                                    <div class="col-md-6 com-sm-6 w3three_al2">
+                                        <div class="test-wel">
+
+                                            <p>Summer Offers valid till 1st September 2020. Please provide the id and a copy of your payment upon arrival.<br>
+                                            Prices given below are per person. </p>
+                                            <ul>
+                                                <li>
+                                                    <i class="fas fa-check"></i>Water Themepark - ****/-</li>
+                                                <li>
+                                                    <i class="fas fa-check"></i>UnderWater Aquarium - ****/-</li>
+                                                <li>
+                                                    <i class="fas fa-check"></i>International Buffet - ****/-</li>
+                                                <li>
+                                                    <i class="fas fa-check"></i>Dolphin Show - ****/-</li>
+                                            </ul>
+                                            <button type="submit">BOOK NOW</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 com-sm-6 w3three_al5">
+                                        <img src=" {% static 'images/b2.jpg' %} " alt="" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab3">
+                                <div class="row">
+                                    <div class="col-md-6 com-sm-6 w3three_al2">
+                                        <div class="test-wel">
+
+                                            <p>Members of Rivera Beach Resort have a 20% discout on all existing prices.<br>
+                                            They also can access to :</p>
+                                            <ul>
+                                                <li>
+                                                    <i class="fas fa-check"></i>Private Pool</li>
+                                                <li>
+                                                    <i class="fas fa-check"></i>Free Breakfast</li>
+                                                <li>
+                                                    <i class="fas fa-check"></i>Private access to the beach</li>
+                                                <li>
+                                                    <i class="fas fa-check"></i>Gym Access</li>
+                                            </ul>
+                                            <button type="submit">MEMBERS LOGIN</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 com-sm-6 w3three_al7">
+                                        <img src=" {% static 'images/b3.jpg' %} " alt="" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab4">
+                                <div class="row">
+                                    <div class="col-md-6 com-sm-6 w3three_al2">
+                                        <div class="test-wel">
+
+                                            <p>
+                                                One Day Trip to Rivera can include numerous activities to keep you occupied throughout the day. <br>
+                                                Price per person - ****/-
+                                            </p>
+                                            <ul>
+                                                <li>
+                                                    <i class="fas fa-check"></i>Breakfast Provided</li>
+                                                <li>
+                                                    <i class="fas fa-check"></i>Sightseeing in the city</li>
+                                                <li>
+                                                    <i class="fas fa-check"></i>Access to the beach</li>
+                                                <li>
+                                                    <i class="fas fa-check"></i>Access to Underwater Aquarium OR Dolphin Show</li>
+                                            </ul>
+                                            <button type="submit">BOOK NOW</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 com-sm-6 w3three_al9">
+                                        <img src=" {% static 'images/b4.jpg' %} " alt="" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </div>
+    <!-- //about -->
+
+    <!-- Services -->
+    <div class="serives py-5" id="services">
+        <div class="container py-xl-5 py-lg-3">
+            <div class="text-h3 text-center">
+                <h3>FEATURES</h3>
+            </div>
+            <div class="row welcome-bottom">
+                <div class="col-md-4 welcome-grid text-center">
+                    <i class="far fa-calendar-check"></i>
+                    <h4 class="my-3">HOTEL BOOKING</h4>
+                    <p>Rooms and Suites as per availability.</p>
+                </div>
+                <div class="col-md-4 welcome-grid text-center">
+                    <i class="far fa-umbrella-beach"></i>
+                    <h4 class="my-3">BEACH ACCESS</h4>
+                    <p>Included in the booking.Private access to the beach also available.</p>
+                </div>
+                <div class="col-md-4 welcome-grid text-center">
+                    <i class="fas fa-swimming-pool"></i>
+                    <h4 class="my-3">INDOOR POOL</h4>
+                    <p>With Heated water.Private Pool also available.</p>
+                </div>
+           
+                <div class="col-md-4 welcome-grid text-center ">
+                    <i class="icon-food"></i>
+                    <h4 class="my-3">FREE BREAKFAST</h4>
+                    <p>English Breakfast Buffet available.</p>
+                </div>
+                <div class="col-md-4 welcome-grid text-center">
+                    <i class="fa fa-wifi"></i>
+                    <h4 class="my-3">FREE WIFI</h4>
+                    <p>Fast and secured WI-FI connection available for each room.</p>
+                </div>
+                <div class="col-md-4 welcome-grid text-center">
+                    <i class="fas fa-car"></i>
+                    <h4 class="my-3">CHOISE OF TOURS</h4>
+                    <p>Sightseeing of the city can be arranged.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services -->
+
+    
+
+    <!--  gallery -->
+    <div class="portfolio-agileinfo py-5" id="gallery">
+        <div class="agile_wthree_inner_grids">
+            <div class="container">
+                <div class="text-h3 text-center">
+                    <h3>GALLERY</h3>
+                    <P>Make Memories with US</P>
+                </div>
+                <div class="agile_port_w3ls_info">
+                    <div class="portfolio-grids_main">
+                        <div class="row">
+                            <div class="col-md-6 portfolio-grids" data-aos="zoom-in">
+                                <a href=" {% static 'images/g1.jpg' %} " class="b-link-stripe b-animate-go lightninBox" data-lb-group="1">
+								<img src=" {% static 'images/g1.jpg' %} " class="img-fluid" alt="w3ls" />
+								<div class="b-wrapper two">
+									<i class="fa fa-magic" aria-hidden="true"></i>
+									
+								</div>
+							</a>
+                            </div>
+                            <div class="col-md-6 portfolio-grid_left">
+                                <div class="row">
+                                    <div class="col-md-6 portfolio-grids" data-aos="zoom-in">
+                                        <a href=" {% static 'images/g2.jpg' %} " class="b-link-stripe b-animate-go lightninBox" data-lb-group="1">
+									<img src=" {% static 'images/g2.jpg' %} " class="img-fluid" alt="w3ls" />
+									<div class="b-wrapper">
+									<i class="fa fa-magic" aria-hidden="true"></i>
+										
+									</div>
+								</a>
+                                    </div>
+                                    <div class="col-md-6 portfolio-grids" data-aos="zoom-in">
+                                        <a href=" {% static 'images/g3.jpg' %} " class="b-link-stripe b-animate-go lightninBox" data-lb-group="1">
+									<img src=" {% static 'images/g3.jpg' %} " class="img-fluid" alt="w3ls" />
+									<div class="b-wrapper">
+										<i class="fa fa-magic" aria-hidden="true"></i>
+										
+									</div>
+								</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-grids_main">
+                        <div class="row">
+                            <div class="col-md-6 portfolio-grid_left">
+                                <div class="row">
+                                    <div class="col-md-6 portfolio-grids" data-aos="zoom-in">
+                                        <a href=" {% static 'images/g4.jpg' %} " class="b-link-stripe b-animate-go lightninBox" data-lb-group="1">
+									<img src=" {% static 'images/g4.jpg' %} " class="img-fluid" alt="w3ls" />
+									<div class="b-wrapper">
+									<i class="fa fa-magic" aria-hidden="true"></i>
+										
+									</div>
+								</a>
+                                    </div>
+                                    <div class="col-md-6 portfolio-grids" data-aos="zoom-in">
+                                        <a href=" {% static 'images/g5.jpg' %} " class="b-link-stripe b-animate-go lightninBox" data-lb-group="1">
+									<img src=" {% static 'images/g5.jpg' %} " class="img-fluid" alt="w3ls" />
+									<div class="b-wrapper">
+										<i class="fa fa-magic" aria-hidden="true"></i>
+										
+									</div>
+								</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 portfolio-grids" data-aos="zoom-in">
+                                <a href=" {% static 'images/g6.jpg' %} " class="b-link-stripe b-animate-go lightninBox" data-lb-group="1">
+								<img src=" {% static 'images/g6.jpg' %} " class="img-fluid" alt="w3ls" />
+								<div class="b-wrapper two">
+									<i class="fa fa-magic" aria-hidden="true"></i>
+									
+								</div>
+							</a>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--// Gallery -->
+
+    <!-- clients-->
+    <div class="clients py-5" id="clients">
+        <div class="container">
+            <div class="text-h3 text-center">
+                <h3>EVENTS</h3>
+            </div>
+            <div class="wmuSlider example1 animated wow slideInUp" data-wow-delay=".5s">
+                <div class="wmuSliderWrapper">
+                    <article style="position: absolute; width: 100%; opacity: 0;">
+                        <div class="banner-wrap">
+                            <div class="row">
+
+                                <div class="col-md-6 client-grids">
+                                    <p><span class="c-icon"></span> <b>NEW YEARS EVE</b> <br>Celebrate New Years Eve with us. Amazing fireworks and awesome food. 
+                                        Gather your family and friends and head to Rivera for this New Years.</p>
+                                    <div class="row">
+                                        <div class="col-md-3 col-sm-3  col-6 c-img">
+                                           
+                                        </div>
+                                        <div class="col-md-3 col-sm-3  col-6 c-info">
+                                            
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 client-grids">
+                                    <p><span class="c-icon"></span>
+                                        <img src=" {% static 'images/c2.jpg' %} " class="img-fluid" alt="" /> </p>
+                                    <div class="row">
+                                        <div class="col-md-3 col-sm-3  col-6 c-img">
+                                           
+                                        </div>
+                                        <div class="col-md-3 col-sm-3  col-6 c-info">
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article style="position: absolute; width: 100%; opacity: 0;">
+                        <div class="banner-wrap">
+                            <div class="row">
+                                <div class="col-md-6 client-grids">
+                                    <p><span class="c-icon"> </span> <b>CHRISTMAS EVE</b><br> Celebrate the Christmas with Us at Rivera.<br> 
+                                    There is special entry for kids. Lets make this Christmas Eve most memorable here on the snowy night.</p>
+                                    <div class="row">
+                                        <div class="col-md-3 col-sm-3  col-6 c-img">
+                                            
+                                        </div>
+                                        <div class="col-md-3 col-sm-3  col-6 c-info">
+                                            
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 client-grids">
+                                    <p><span class="c-icon"></span>
+                                        <img src=" {% static 'images/c4.png' %} " class="img-fluid" alt="" /></p>
+                                    <div class="row">
+                                        <div class="col-md-3 col-sm-3  col-6 c-img">
+                                            
+                                        </div>
+                                        <div class="col-md-3 col-sm-3 col-6 c-info">
+                                           
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--//clients-->
+
+
+    <!-- Contact -->
+    <div class="contact py-5" id="contact">
+        <div class="container">
+            <div class="text-h3 text-center">
+                <h3>CONTACT US</h3>
+            </div>
+            <div class="row">
+                <div class="col-md-6 content-left">
+                    <h4>CONTACT FORM</h4>
+                    <form action="#" method="post">
+                        {% csrf_token %}
+                        <div class="form-row">
+                            <div class="form-group col-md-12">
+                                <input type="text" class="form-control" id="inputtext" placeholder="Name" required="">
+                            </div>
+                            <div class="form-group col-md-12">
+                                <input type="email" class="form-control" id="inputEmail4" placeholder="Email" required="">
+                            </div>
+                            <div class="form-group col-md-12">
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Text Hear" required=""></textarea>
+                            </div>
+                            <input type="submit" class="form-button" value="SUBMIT">
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-6 content-right">
+					<h4>ADDRESS</h4>
+                    
+                    <div class="add-info">
+                        
+                        <p><span class="contact-right-icons"><i class="fas fa-map-marker"></i></span> 1608 US-19, Ellaville, USA.</p>
+                    </div>
+                    <div class="add-info">
+                        
+                        <p><span class="contact-right-icons"><i class="fas fa-phone"></i></span> +(012) 345 6789</p>
+                    </div>
+                    <div class="add-info">
+                        
+                        <p><span class="contact-right-icons"><i class="fas fa-envelope"></i></span> <a href=" {% static 'mailto:info@example.com' %} ">info@example.com</a></p>
+                    </div>
+                  
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--// Contact-->
+    <!-- footer -->
+    <footer>
+        <div class="w3ls-footer-grids pb-5">
+           
+                <div class="row border-top mt-4 pt-lg-4 pt-3 text-lg-left text-center">
+                    <p class="col-lg-8 copy-right-grids mt-lg-1">© 2020 RIVERA BEACH RESORT. All Rights Reserved 
+                    </p>
+                    <div class="col-lg-4 agileinfo_social_icons mt-lg-0 mt-3">
+                        <ul class="agileits_social_list">
+                            <li>
+                                <a href="#" class="w3_agile_facebook">
+									<i class="fab fa-facebook-f"></i>
+								</a>
+                            </li>
+                            <li>
+                                <a href="#" class="agile_twitter">
+									<i class="fab fa-twitter"></i>
+								</a>
+                            </li>
+                            <li>
+                                <a href="#" class="w3_agile_dribble">
+									<i class="fab fa-dribbble"></i>
+								</a>
+                            </li>
+                            <li>
+                                <a href="#" class="w3_agile_google">
+									<i class="fab fa-google-plus-g"></i>
+								</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- //footer -->
+
+    <!-- js -->
+    <script src=" {% static 'js/jquery.min.v3.js' %} "></script>
+    <script src=" {% static 'js/bootstrap.min.js' %} "></script>
+    <!-- //js -->
+
+    <!-- pop-up(for video popup)-->
+    <script src=" {% static 'js/jquery.magnific-popup.js' %} "></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.popup-with-zoom-anim').magnificPopup({
+                type: 'inline',
+                fixedContentPos: false,
+                fixedBgPos: true,
+                overflowY: 'auto',
+                closeBtnInside: true,
+                preloader: false,
+                midClick: true,
+                removalDelay: 300,
+                mainClass: 'my-mfp-zoom-in'
+            });
+
+        });
+    </script>
+    <!-- //pop-up-box (syllabus section video)-->
+
+    <script src=" {% static 'js/easy-responsive-tabs.js' %} "></script>
+    <script>
+        $(document).ready(function () {
+            $('#horizontalTab').easyResponsiveTabs({
+                type: 'default', //Types: default, vertical, accordion           
+                width: 'auto', //auto or any width like 600px
+                fit: true, // 100% fit in a container
+                closed: 'accordion', // Start closed if in accordion view
+                activate: function (event) { // Callback function if tab is switched
+                    var $tab = $(this);
+                    var $info = $('#tabInfo');
+                    var $name = $('span', $info);
+                    $name.text($tab.text());
+                    $info.show();
+                }
+            });
+            $('#verticalTab').easyResponsiveTabs({
+                type: 'vertical',
+                width: 'auto',
+                fit: true
+            });
+        });
+    </script>
+
+
+    <!-- stats -->
+    <script src=" {% static 'js/jquery.waypoints.min.js' %} "></script>
+    <script src=" {% static 'js/jquery.countup.js' %} "></script>
+    <script>
+        $('.counter').countUp();
+    </script>
+    <!-- //stats -->
+
+    <!-- clients js file-->
+    <script src=" {% static 'js/jquery.wmuSlider.js' %} "></script>
+    <script>
+        $('.example1').wmuSlider();
+    </script>
+    <!-- //clients js file -->
+    <!-- js for portfolio  -->
+    <script src=" {% static 'js/jquery.chocolat.js ' %} "></script>
+    <!--light-box-files -->
+    <script>
+        $(function () {
+            $('.portfolio-grids a').Chocolat();
+        });
+    </script>
+    <!-- /js for portfolio -->
+
+
+    <!-- start-smooth-scrolling -->
+    <script src=" {% static 'js/move-top.js' %} "></script>
+    <script src=" {% static 'js/easing.js' %} "></script>
+    <script>
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+
+                $('html,body').animate({
+                    scrollTop: $(this.hash).offset().top
+                }, 1000);
+            });
+        });
+    </script>
+    <!-- //end-smooth-scrolling -->
+    <!-- smooth-scrolling-of-move-up -->
+    <script>
+        $(document).ready(function () {
+            /*
+            var defaults = {
+            	containerID: 'toTop', // fading element id
+            	containerHoverID: 'toTopHover', // fading element hover id
+            	scrollSpeed: 1200,
+            	easingType: 'linear' 
+            };
+            */
+
+            $().UItoTop({
+                easingType: 'easeOutQuart'
+            });
+
+        });
+    </script>
+    <script src=" {% static 'js/SmoothScroll.min.js' %} "></script>
+
+    <!-- //smooth-scrolling-of-move-up -->
+
+</body>
+
+</html>

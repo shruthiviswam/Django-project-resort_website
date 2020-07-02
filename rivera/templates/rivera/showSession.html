@@ -1,0 +1,52 @@
+{% extends 'rivera/layout.html' %}
+{% load static %}
+
+{% block title %}
+
+    Rivera :: HOME
+
+{% endblock %}
+
+{% block header %}
+
+    Home
+
+{% endblock %}
+
+{% block content %}
+
+<div class="about pt-0" id="about">
+	<div class="main-about">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-6 about-left">
+                    <div>
+                        <form>
+                            {% csrf_token %}
+                    
+                            <table>
+
+                                <h1>HELLO!.....{{user}}</h1>
+                                <p>Welcome to Rivera.
+                                    Your details are availible in this page.
+                                    
+                                </p>
+                                <a href="{% url 'setSession' %}">Logout</a>
+                           
+                            </table>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-6 about-right">
+                    <form>
+                        {{pic}}
+                    </form>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

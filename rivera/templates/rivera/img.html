@@ -1,0 +1,15 @@
+<form>
+    {% csrf_token %}
+    <table>
+        {% for x in mem %}
+            <tr>
+                <td>
+                    {{x.username}}
+                </td>
+                <td>
+                    <img src="{{x.upload_file.url}}">
+                </td>
+            </tr>
+        {% endfor %}
+    </table>
+</form>

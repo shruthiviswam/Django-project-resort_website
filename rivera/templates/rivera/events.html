@@ -1,0 +1,45 @@
+{% extends 'rivera/layout.html' %}
+{% load static %}
+
+{% block title %}
+
+    Rivera :: EVENTS
+
+{% endblock %}
+
+{% block header %}
+
+    Events
+
+{% endblock %}
+
+{% block content %}
+
+<div class="contact py-5" id="contact">
+    <div class="container">
+        <div class="text-h3 text-center">
+            <h3>EVENTS</h3>
+        </div>
+        <div class="row">
+            <div class="col-md-6 content-left">
+                <p><span class="c-icon"></span> <b>NEW YEARS EVE</b> <br>Celebrate New Years Eve with us. Amazing fireworks and awesome food. 
+                    Gather your family and friends and head to Rivera for this New Years.<br> 
+                    Timings : 8:00 pm to 1:00 am</p>
+            </div>
+            <div class="col-md-6 client-grids">
+                <p><span class="c-icon"></span>
+                    <img src=" {% static 'images/c2.jpg' %} " class="img-fluid" alt="" /> </p><br>
+            </div>
+            <div class="col-md-6 content-right">
+                    <p><span class="c-icon"> </span> <b>CHRISTMAS EVE</b><br> Celebrate the Christmas with Us at Rivera.<br> 
+                    There is special entry for kids. Lets make this Christmas Eve most memorable here on the snowy night.</p>
+            </div>
+            <div class="col-md-6 client-grids">
+                <p><span class="c-icon"></span>
+                    <img src=" {% static 'images/c4.png' %} " class="img-fluid" alt="" /></p>
+            </div>                
+        </div>
+    </div>
+</div>
+
+{% endblock %}

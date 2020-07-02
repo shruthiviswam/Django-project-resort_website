@@ -1,0 +1,37 @@
+{% extends 'rivera/layout.html' %}
+{% load static %}
+
+{% block title %}
+
+    Rivera :: ABOUT
+
+{% endblock %}
+
+{% block header %}
+
+    About
+
+{% endblock %}
+
+{% block content %}
+ <!-- about -->
+ <div class="about pt-5" id="about">
+	<div class="main-about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 about-left">
+                    <h3>WELCOME</h3>
+                    <p>An aesthetically perfect beach resort & spa hotel,which stands majestically with breathtaking natural beauty of the stunning ocean view, to create a true relaxation experiance.</p>
+                </div>
+                <div class="col-md-6 about-right">
+                    <img src=" {% static 'images/ab.jpg' %} " alt="image" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+	
+        <!-- about-bottom -->
+
+{% endblock %}
+

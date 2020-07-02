@@ -1,0 +1,40 @@
+{% extends 'rivera/layout.html' %}
+{% load static %}
+
+{% block title %}
+
+    Rivera :: HOME
+
+{% endblock %}
+
+{% block header %}
+
+    Home
+
+{% endblock %}
+
+{% block content %}
+
+<div class="about pt-0" id="about">
+	<div class="main-about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 about-left">
+                    <div>
+                        <h3>For New Members :</h3>
+                        <h3><a href="signup" ><input type="submit" class="form-button" value="Sign Up" ></a></h3>
+                    </div>
+                    <div>
+                        <h3>For Existing Members :</h3>
+                        <h3><a href="setSession" ><input type="submit" class="form-button" value="Sign In"></a></h3>
+                    </div>
+                </div>
+                <div class="col-md-6 about-right">
+                    <img src=" {% static 'images/m1.jpg' %} " alt="image"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
